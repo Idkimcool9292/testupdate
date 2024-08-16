@@ -1,3 +1,4 @@
 @echo off
 :: mb
 echo success in updating
+pause
