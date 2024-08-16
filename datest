@@ -11,7 +11,7 @@ powershell -Command "Invoke-WebRequest -Uri '%URL%' -OutFile '%TEMP_FILE%' -Head
 findstr /i "mb" "%TEMP_FILE%" >nul
 if %errorlevel%==0 (
     echo Update required! Downloading content...
-    powershell -Command "Invoke-WebRequest -Uri '%URL%' -OutFile 'downloaded_script1.0.bat' -Headers @{\"Cache-Control\"=\"no-cache\"}"
+    powershell -Command "Invoke-WebRequest -Uri '%URL%' -OutFile 'Boostrapper1.0.bat' -Headers @{\"Cache-Control\"=\"no-cache\"}"
     echo File downloaded as "Boostrapper1.0.bat"
 ) else (
     echo there are no current downloads needed.
