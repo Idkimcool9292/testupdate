@@ -1,7 +1,7 @@
 @echo off
 
 :: Define the URL and the temporary file
-set "URL=https://raw.githubusercontent.com/Idkimcool9292/testupdate/main/datest"
+set "URL=https://raw.githubusercontent.com/Idkimcool9292/updslb/main/updslb"
 set "TEMP_FILE=%temp%\datest.txt"
 
 :: Use PowerShell to download the file with a forced refresh
