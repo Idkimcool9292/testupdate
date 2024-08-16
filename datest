@@ -1,4 +1,4 @@
 @echo off
 :: mb
-echo success in updating
+echo success in updating1
 pause
